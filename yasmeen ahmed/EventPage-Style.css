@@ -1,0 +1,278 @@
+body{
+    font-family:Helvetica, Arial, sans-serif;
+}
+
+
+
+.events-img {
+    position: absolute;
+    top: 30%;
+    left: 15%;
+}
+
+
+.event-img-1{
+    width: 95%;
+}
+
+.event-img-2{
+    width: 95%;
+}
+
+@media (max-width:700px)
+{
+    
+.event-img-1{
+    width: 100%;
+}
+
+.event-img-2{
+    width: 100%;
+}
+
+    h3
+    {
+        font-size: 14px;
+            text-shadow: 2px 2px 4px #000000;
+
+    }
+ h6 {
+    font-size: 11px !important;
+}
+    .btn {
+    padding: 0.025rem 0.215rem !important;
+}
+}
+
+
+@media (max-width:700px)
+{
+        .arrowprev
+{
+           height: 2px;
+    width: 62px !important;
+    color: white;
+    background-color: white;
+    position: relative;
+    left: 30px !important;
+    bottom: 272px !important;
+}
+.arrownext
+{
+   height: 2px;
+    width: 62px !important;
+    color: white;
+    background-color: white;
+    position: relative;
+    left: 294px !important;
+    bottom: 272px !important;
+   
+}
+
+    .nexticon {
+    position: relative;
+    bottom: 6px !important;
+    left: 61px !important;
+    font-size: 15px;
+}
+}
+.btn
+{
+        padding: 0.075rem 0.555rem;
+}
+#details #details-2 h3
+{
+    font-size: 25px;
+     color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+.h6, h6
+{
+    font-size: 18px;
+}
+#details{
+  
+    color: white;
+    width: 90%;
+    font-size: 26px;
+    position: absolute;
+    top: 5px;
+    right: 40px;
+    z-index: 100;
+   display: none;
+    
+}
+#details i{
+    color: #fea402;
+}
+#details span{
+     color: black;
+    font-size: 18px;
+}
+#details button{
+    background-color: #fea402;
+   
+}
+#register{
+     background-color: #fea402;
+   
+}
+
+p
+{
+    margin-bottom: 0rem;
+}
+#info{
+    font-size: 15px;
+    color: white;
+    display: none;
+}
+#details-2 i{
+    color: #fea402;
+}
+#details-2 span{
+     color: black;
+}
+#details-2 button{
+    background-color: #fea402;
+   
+}
+#register2{
+     background-color: #fea402;
+   
+}
+#info2{
+    font-size: 20px;
+    color: white;
+    display: none;
+}
+#register2{
+     background-color: #fea402;
+   
+}
+#info2{
+    font-size: 15px;
+    color: white;
+    display: none;
+}
+
+#details-2{
+    
+    color: white;
+    width: 90%;
+    font-size: 26px;
+    position: absolute;
+    top: -5px;
+    right: 40px;
+    z-index: 100;
+    display: none;    
+}
+#details .month{
+    color: darkred;
+    position: absolute;
+    right: 20px;
+    top: 30px;
+    font-size: 20px;
+}
+
+#details .day{
+    color:black;
+    position: absolute;
+    right: 30px;
+    top: 55px;
+    font-size: 20px;
+}
+#details-2 .month{
+    color: darkred;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    font-size: 20px;
+}
+
+#details-2 .day{
+    color:black;
+    position: absolute;
+    right: 35px;
+    top: 55px;
+    font-size: 20px;
+}
+#hide{
+        display:none;
+}
+#hide2{
+        display:none;
+}
+#show2{
+        display:block;
+}
+/* button style*/
+.example_b {
+color: #fff !important;
+text-transform: uppercase;
+background: #60a3bc;
+padding-right: 13px;
+padding-left: 13px;
+padding-top: 10px;
+padding-bottom: 10px;
+border-radius: 50px;
+display: inline-block;
+border: none;
+    font-size: 18px;
+}
+.button_cont a{
+    text-decoration: none;
+}
+.example_b:hover {
+text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.4s ease 0s;
+}
+/* button style*/
+
+
+
+@media (max-width:700px)
+{
+    .slides li {
+    position: absolute;
+    -webkit-transition: opacity 0.65s ease-in-out;
+    -o-transition: opacity 0.65s ease-in-out;
+    transition: opacity 0.65s ease-in-out; 
+      margin-left: 15px;
+        }
+
+    
+    .arrowprev
+{
+   height: 2px;
+width: 82px;
+color: white;
+background-color: white;
+position: relative;
+left: 30px;
+bottom: 263px !important;
+}
+.arrownext
+{
+    height: 2px;
+    width: 82px;
+    color: white;
+    background-color: white;
+    position: relative;
+       left: 448px;
+    bottom: 265px !important;
+   
+}
+
+
+}
+
+
+
+
+
+
+
+

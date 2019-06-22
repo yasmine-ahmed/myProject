@@ -1,0 +1,91 @@
+
+ .bg-light
+{
+    background-color: transparent !important;
+}
+body
+{
+    background-image: url(../images/tesit-b-1.jpg);
+    background-size: 100% 100%;
+    font-family: "Nunito", sans-serif;
+}
+
+
+
+.navbar
+{
+
+    padding-right: 139px !important;
+    font-size: 18px;
+    
+}
+
+.previcon
+{
+    position: relative;
+    bottom: 7px;
+    right: 5px;
+    font-size: 15px;
+}
+.nexticon
+{
+    position: relative;
+    bottom: 6px;
+    left: 80px;
+    font-size: 15px;
+}
+.arrowprev
+{
+    height: 2px;
+    width: 82px;
+    color: white;
+    background-color: white;
+    position: relative;
+    left: 120px;
+   
+}
+.arrownext
+{
+    height: 2px;
+    width: 82px;
+    color: white;
+    background-color: white;
+    position: relative;
+    left: 1160px;
+   
+}
+
+
+.nav-item i
+{
+    font-size: 18;
+}
+
+
+
+.navbar-light .navbar-nav .nav-link
+{
+    padding: 30px !important;
+}
+
+
+
+
+
+@media (max-width:700px)
+{
+    .slides li {
+    position: absolute;
+    -webkit-transition: opacity 0.65s ease-in-out;
+    -o-transition: opacity 0.65s ease-in-out;
+    transition: opacity 0.65s ease-in-out; 
+      margin-left: 15px;
+        }
+
+    
+
+
+}
+
+    
+    

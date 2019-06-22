@@ -1,0 +1,50 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+#map {
+        width: 100%;
+        height: 100%;
+        background-color: grey;
+    position: relative;
+      }
+
+.icons {width:50px;
+height: 50px;
+background-color:#0c2c9a;
+    color: white;
+border-radius: 50%;
+margin: 15px;
+padding: 10px;
+text-align: center;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px #5d5c5c;
+    transition: all 1s;
+}
+.info{
+    position: absolute;
+left: 5px;
+top:20px;
+z-index: 1;
+}
+.Arrive{
+   
+    position: absolute;
+left: 5px;
+top:120px;
+z-index: 1;
+}
+.leave{
+    position: absolute;
+left: 5px;
+top:220px;
+z-index: 1;
+}
+
+.icons:hover{
+    color: black;
+    background-color: white;
+     transform: scale(1.2,1.2);
+}
